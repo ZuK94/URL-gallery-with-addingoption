@@ -68,7 +68,7 @@ autoPlayBtn.addEventListener(`click`, function autoPlay() {
       imageContainer.innerHTML = `<img style="width:300px" src="${floatingImages[i].url}" alt="${floatingImages[i].title}">`;
       titleContainer.innerHTML = `${floatingImages[i].title}`;
     }
-  }, 1000);
+  }, 2000);
   stopBtn.addEventListener(`click`, function () {
     clearInterval(alternatingImages);
     alternatingImages = null;
